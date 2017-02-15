@@ -229,7 +229,7 @@ public class MainActivity extends AppCompatActivity {
             startTime = mPlayer.getCurrentPosition();
             if (oneTimeOnly == 0) {
                 sb.setMax((int) finalTime);
-                (oneTimeOnly >1);
+                oneTimeOnly = 1;
             }
             t1.setText(String.format("%d min, %d sec",
                     TimeUnit.MILLISECONDS.toMinutes((long) startTime),
